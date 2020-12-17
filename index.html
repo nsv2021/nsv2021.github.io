@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="nsv.css">
+
+    <title>NSV 2021 - 14th International Workshop on Numerical Software Verification 2021</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">NSV 21</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <!--<li class="nav-item">
+            <a class="nav-link" href="#registration">Registration</a>
+          </li>-->
+<!--           <li class="nav-item">
+            <a class="nav-link" href="#program">Program</a>
+          </li> -->
+          <!--<li class="nav-item">
+            <a class="nav-link" href="#invited">Invited Speakers</a>
+          </li>-->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Submission Information
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#submission">Scope</a>
+              <a class="dropdown-item" href="#format">Instructions for Authors</a>
+<!--               <a class="dropdown-item" href="#cfp">Call for Papers</a>
+              <a class="dropdown-item" href="#dates">Important Dates</a> -->
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Organization</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#chairs">Organizers</a>
+              <!-- <a class="dropdown-item" href="#pc">Program Committee</a> -->
+              <a class="dropdown-item" href="#steering">Steering Committee</a>
+            </div>
+          </li>
+   <!--       <li class="nav-item">
+            <a class="nav-link" href="#sponsors">Sponsors</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link" href="#prev">Previous Editions</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="jumbotron">
+    <div class="container" id="home">
+      <h1 class="display-3">NSV 21</h1>
+      <h3>
+      14th International Workshop on Numerical Software Verification 2021<br>
+      collocated with CAV, 18-19 July 2021<br>
+      Los Angeles, CA, USA
+      </h3>
+      <!--
+      <p><a class="btn btn-primary btn-lg" href="#schedule" role="button">Go to schedule&raquo;</a></p>-->
+      <!-- background picture from https://www.sunn-starr.com/_images/Downtown-Los-Angeles_(300-dpi).jpg Public Domain -->
+    </div>
+    </div>
+    
+
+   
+    <div class="container" id="submission">
+      <h2 class="border-bottom">Scope</h2>
+      <div class="row">
+        <div class="col">
+          <p>Numerical computations are ubiquitous in digital systems: supervision, prediction, simulation and signal processing rely heavily on numerical calculus to achieve desired goals. Design and verification of numerical algorithms has a unique set of challenges, which set it apart from rest of software verification.
+            <!--To achieve the verification and validation of global properties, numerical techniques need to precisely represent local behaviors of each component.-->
+            The implementation of numerical techniques on modern hardware adds another layer of approximation because of the use of finite representations of infinite precision numbers that usually lack basic arithmetic properties such as commutativity and associativity.
+            Finally, the development and analysis of cyber-physical systems (CPS) which involve the interacting continuous and discrete components pose a further challenge. It is hence imperative to develop logical and mathematical techniques for the reasoning about programmability and reliability.
+            The NSV workshop is dedicated to the development of such techniques.
+
+<!-- This year, the NSV workshop is hosting a <b>special session on numerical computations in machine learning</b>. This includes, but is not limited to, performance vs accuracy trade-offs, reliability, robustness, co-design of hardware and software for numerical computations in machine learning frameworks. -->
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+        <h3>Topics</h3>
+        <p>The scope of the workshop includes, but is not restricted to, the following topics:</p>
+        <ul>
+          <li>Quality of finite precision numerics</li>
+          <ul>
+            <li>Representations of real numbers such as dfloat, finite precision, logarithmic number systems, etc</li>
+          </ul>
+          <li>Validation and verification of machine learning algorithms</li>
+          <ul>  
+            <li>Performance-accuracy trade-offs in floating point representations in machine learning</li>
+            <li>Robustness, reliability, and hardware software co-design for numerical computations in machine learning</li>
+          </ul>
+          <li>Validation and verification in scientific computing and simulations</li>
+          <ul>
+            <li>Specifications of correctness of numerical algorithms</li>
+            <li>Numerical optimization methods</li>
+          </ul>
+          <li>Hybrid systems and control software verification</li>
+          <ul>
+            <li>Quantitative and qualitative analysis of hybrid systems</li>
+          <!--<li>Models and abstraction techniques</li>-->
+          <!--<li>Propagation of uncertainties, deterministic and probabilistic models</li>-->
+            <li>Optimal control and synthesis of dynamical systems</li>
+            <li>Applications in space, avionics, automotive, systems biology, etc</li>
+          </ul>
+        </ul>
+        </div>
+      </div>
+<!--         <div class="row">
+        <div class="col">
+
+        <h3>Proceedings</h3>
+        <p>The proceedings are available in Springer LNCS.
+     <a href="https://link.springer.com/book/10.1007/978-3-030-63618-0">https://link.springer.com/book/10.1007/978-3-030-63618-0</a>.</p>
+
+		</div>
+      </div> -->
+    </div>
+
+    <div class="container" id="format">
+      <h2 class="border-bottom">Submission Information</h2>
+      <!-- <div class="row" id="dates">
+        <div class="col">
+        <h4>Important Dates</h4>
+        <table class="table table-hover table-sm">
+          <tbody>
+            <tr>
+              <th scope="row"><b>Submissions deadline:</b></th>
+              <td> <b> 2021</b> 23:59 (AoE)</td>
+            </tr>
+            <tr>
+              <th scope="row">Notification:</th>
+              <td> <b> 2021</b></td>
+            </tr>
+            <tr>
+              <th scope="row">Final version:</th>
+              <td> <b>2021</b></td>
+            </tr>
+            <tr>
+              <th scope="row">Workshop:</th>
+              <td> <b>July 18-19, 2021</b></td>
+            </tr>
+          </tbody>
+        </table>
+        </div>
+      </div> -->
+      <div class="row">
+        <div class="col">
+        <h4>Instructions for Authors</h4>
+        <p>We solicit regular and short papers. 
+<!--         Paper submission must be
+        performed via the EasyChair system: <em><a
+        href="https://easychair.org/conference?conf=nsv2021" alt="EasyChair NSV 2021">https://easychair.org/conference?conf=nsv2021</a></em>.</p> -->
+        <p>Regular papers must describe original work, be written and presented in English, and must not substantially overlap with papers that have been published or that are under submission. Submitted papers will be judged on the basis of significance, relevance, correctness, originality, and clarity. They should clearly identify what has been accomplished and why it is significant.</p>
+        <p>Regular paper submissions should not exceed 15 pages in <a href="https://www.springer.com/us/computer-science/lncs/conference-proceedings-guidelines">LNCS style</a>, plus possibly bibliography and appendices. However, program committee members are not required to read the appendices, thus papers must be intelligible without them.</p>
+        <p>Short papers are also welcome: they should present tools, benchmarks, case-studies or be extended abstracts of ongoing research. Short papers should not exceed 6 pages, excluding extra material as above.</p>
+		
+        <p>All accepted papers will be published as Lecture Notes in Computer Science (LNCS) with Springer Verlag. <a href="http://www.springer.com/lncs">http://www.springer.com/lncs</a>. You need to fill in a <a href="Contract_Book_Contributor_Consent_to_Publish_LNCS_SIP.pdf">copyright form</a> and submit together with the camery-ready version.</p>
+        </div>
+      </div>
+<!--       <div class="row" id="cfp">
+        <div class="col">
+        <h4>Call for Papers</h4>
+        <p><a href="nsv21-cfp.txt">Text version of the CFP.</a></p>
+        </div>
+      </div> -->
+    </div>
+
+
+    <div class="container" id="organization">
+      <h2 class="border-bottom">Organization</h2>
+      <div class="row" id="chairs">
+        <div class="col">
+        <h4>Program Committee Chairs</h4>
+        <ul>
+          <li>Rayna Dimitrova, CISPA Helmholtz Center for Information Security, Germany</li>
+          <li>Chuchu Fan, Massachusetts Institute of Technology, USA</li>
+        </ul>
+        </div>
+      </div>
+      <div class="row" id="pc">
+<!--         <div class="col">
+        <h4>Program Committee</h4>
+        <ul>
+            </ul>
+        </div> -->
+      </div>
+      <div class="row" id="steering">
+        <div class="col">
+        <h4>Steering Committee</h4>
+        <ul>
+          <li>Sergiy Bogomolov, Newcastle University, UK</li>
+          <li>Radu Grosu, TU Vienna, Austria</li>
+          <li>Matthieu Martel, Université de Perpignan, France</li>
+          <li>Pavithra Prabhakar, Kansas State University, USA</li>
+          <li>Sriram Sankaranarayanan, UC Boulder, USA</li>
+        </ul>
+        </div>
+      </div>
+
+    </div>
+    
+    <br />
+
+
+<br />
+
+
+    <div class="container" id="prev">
+      <h2 class="border-bottom">Previous Editions</h2>
+      <div class="row" id="prev">
+        <div class="col">
+      <ul class="list-unstyled" >
+      <li><a href="https://nsv2020.github.io">2020, July 20-21, virtual, collocated with CAV 2020</a></li>
+      <li><a href="https://nsv19.mpi-sws.org/">2019, July 13-14, New York, NY, USA, collocated with CAV 2019</a></li>
+      <li><a href="https://nsv-2018.github.io/nsv2018/">2018, July 18, Oxford, UK, collocated with FLoC 2018</a></li>
+      <li><a href="http://www.cs.ox.ac.uk/conferences/NSV17/">2017, July 22-23, Heidelberg, Germany, collocated with CAV 2017</a></li>
+      <li><a href="https://nsv2016.pages.ist.ac.at/">2016, July 17-18, Toronto, Ontario, Canada, collocated with CAV 2016</a></li>
+      <li><a href="http://nsv2015.informatik.uni-freiburg.de/">2015, April 13, Seattle, USA, collocated with CPSWeek 2015</a></li>
+      <li><a href="http://www.lix.polytechnique.fr/~bouissou/NSV14/">2014, July 17-18, Vienna, Austria, collocated with Vienna Summer of Logic 2014</a></li>
+      <li><a href="http://www.lix.polytechnique.fr/~ghorbal/NSV-2013/">2013, April 8, Philadelphia, Pennsylvania, collocated with CPSWeek 2013</a></li>
+      <li><a href="https://www.cs.rice.edu/~sc40/NSV/12/">2012, July 7-8, Berkeley, California, collocated with CAV 2012</a></li>
+      <li><a href="http://www.lix.polytechnique.fr/Labo/Sylvie.Putot/NSV-2011/">2011, July 14, Salt lake City, Utah, collocated with CAV 2011</a></li>
+      <li><a href="http://www.lix.polytechnique.fr/Labo/Sylvie.Putot/NSV3/">2010, July 15, Edinburgh, UK, collocated with FLoC 2010</a></li>
+      <li><a href="http://theory.stanford.edu/~srirams/nsv2/">2009, April 16, San Fransisco, California collocated with CPSWeek 2009</a></li>
+      <li><a href="http://theory.stanford.edu/~srirams/nsv/index.html">2008, July 8, Princeton, New Jersey, collocated with CAV 2008</a></li>
+      </ul>
+    </div>
+    </div>
+    </div>
+    <footer class="container">
+        <p>&copy; 2021 NSV 21 <!--<a
+            href="https://imprint.mpi-klsb.mpg.de/sws/nsv19.mpi-sws.org">Imprint</a> /--> <!--<a href="https://www.sussex.ac.uk/about/website/privacy-and-cookies/privacy">Data Protection</a> --> </p>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
