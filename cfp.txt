@@ -3,11 +3,13 @@ CALL FOR PAPERS - NSV 2021
 
 14th International Workshop on Numerical Software Verification, 18-19 July 2021
 
-A workshop affiliated with CAV 2021 - Los Angeles, USA
+A workshop affiliated with CAV 2021 - Online
 
 Web Page: https://nsv2021.github.io
 
-DEADLINE EXTENSION: See below.
+Submission link: https://easychair.org/conferences/?conf=nsv21
+
+DEADLINE EXTENSION: 14 May (See below.)
 
 Description of the Workshop
 ===========================
@@ -48,7 +50,7 @@ Hybrid systems and control software verification
 Important Dates
 ===============
 
-Submissions deadline (extended):      May 7, 2021 23:59 (AoE)
+Submissions deadline (extended):      May 14, 2021 23:59 (AoE)
 Notification:                       May 25, 2021
 Final version:                    June 2, 2021
 Workshop:                        July 18-19, 2021
@@ -69,6 +71,11 @@ All accepted papers will be published as Lecture Notes in Computer Science (LNCS
 
 http://www.springer.com/lncs
 
+Invited Speakers
+================
+Stanley Bak, Stony Brook University
+Eva Darulova, Max Planck Institute for Software Systems
+Sanjit Seshia, University of California, Berkeley
 
 PC Chairs
 ======
@@ -105,5 +112,4 @@ Radu Grosu (TU Vienna, Austria)
 Matthieu Martel (Université de Perpignan, France)
 Pavithra Prabhakar (Kansas State University, USA)
 Sriram Sankaranarayanan (UC Boulder, USA)
-
 
